@@ -34,7 +34,7 @@ const columns = [{
   key: 'action',
   render: (text, record) => (
     <span>
-      <a href="#">Action 一 {record.name}</a>
+      <a href="#">Action 一 {record.name}{text}</a>
       <span className="ant-divider" />
       <a href="#">Delete</a>
       <span className="ant-divider" />
